@@ -3,10 +3,17 @@ package Lesson_07;
 import java.util.Scanner;
 
 public class Book {
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
+    }
+
     String ISBN;
     String tittle;
     String authorName;
     String year;
+
+    public Book() {
+    }
 
     public Book(String ISBN, String tittle, String authorName, String year) {
         this.ISBN = ISBN;
